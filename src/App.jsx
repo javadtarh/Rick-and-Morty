@@ -5,6 +5,7 @@ import CharacterList from "./components/CharacterList";
 import Navbar, { Favourites, Search, SearchResult } from "./components/Navbar";
 import useCharacters from "./hooks/useCharacters";
 import useLocalStorage from "./hooks/useLocalStorage";
+import { Toaster } from "react-hot-toast";
 
 const App = () => {
     
